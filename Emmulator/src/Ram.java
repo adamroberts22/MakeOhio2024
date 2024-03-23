@@ -11,7 +11,8 @@ public final class Ram {
      * No argument constructor--private to prevent instantiation.
      */
     private Ram() {
-    }
+        
+    }//private ram
 
     /**
      * Main method.
@@ -21,6 +22,6 @@ public final class Ram {
      */
     public static void main(String[] args) {
         
-    }
+    }//main
 
-}
+}//end
