@@ -9,7 +9,7 @@ import components.simplewriter.SimpleWriter1L;
  * @author Put your name here
  *
  */
-public final class ProgramWithIOAndStaticMethod {
+public final class Display {
 
     /**
      * No argument constructor--private to prevent instantiation.
