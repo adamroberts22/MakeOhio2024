@@ -61,18 +61,6 @@ public final class Ram {
         memory[i] = (byte) 0xF0;
         i++;
 
-        //3 (20-24)
-        memory[i] = (byte) 0xF0;
-        i++;
-        memory[i] = (byte) 0x10;
-        i++;
-        memory[i] = (byte) 0xF0;
-        i++;
-        memory[i] = (byte) 0x10;
-        i++;
-        memory[i] = (byte) 0xF0;
-        i++;
-
         //4 (25-29)
         memory[i] = (byte) 0x90;
         i++;
@@ -218,16 +206,5 @@ public final class Ram {
         i++;
 
     }
-
-    /**
-     * Main method.
-     *
-     * @pamemory args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-
-        
-    }//main
 
 }//end
